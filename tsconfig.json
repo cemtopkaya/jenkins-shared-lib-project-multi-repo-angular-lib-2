@@ -1,0 +1,46 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "@kapsam2/kutup21": [
+        "dist/kapsam2/kutup21"
+      ],
+      "@kapsam2/kutup21/*": [
+        "dist/kapsam2/kutup21/*"
+      ],
+      "@kapsam2/kutup22": [
+        "dist/kapsam2/kutup22"
+      ],
+      "@kapsam2/kutup22/*": [
+        "dist/kapsam2/kutup22/*"
+      ],
+      "@kapsam2/kutup23": [
+        "dist/kapsam2/kutup23"
+      ],
+      "@kapsam2/kutup23/*": [
+        "dist/kapsam2/kutup23/*"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}
